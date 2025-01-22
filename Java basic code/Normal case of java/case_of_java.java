@@ -23,11 +23,13 @@ public class case_of_java {
             String str = sc.next();
             System.out.println(str.toLowerCase());
             break;
+                
             case 2:
             System.out.println("Enter a string");
             String str1 = sc.next();
             System.out.println(str1.toUpperCase());
             break;
+                
             case 3:
             System.out.println("Enter a string");
             String str2 = sc.next();

@@ -1,4 +1,6 @@
 //Write a java code where all java case are avaiable.
+
+
 package com.example;
 import java.util.*;
 public class case_of_java {
@@ -13,6 +15,7 @@ public class case_of_java {
         System.out.println("6. Snake Case");
         System.out.println("7. Kebab Case");
         System.out.println("8. Exit");
+        
         int choice = sc.nextInt();
         switch (choice) {
             case 1:

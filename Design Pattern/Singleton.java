@@ -12,7 +12,8 @@ public class Singleton {
 
     // Public method to provide access to the single instance
     public static Singleton getInstance() {
-        if (instance == null) {
+        if (instance == null)
+        {
             // Create the instance if it does not exist
             instance = new Singleton();
         }

@@ -28,7 +28,8 @@ public class Singleton {
 
 // Main Class
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         // Attempt to get Singleton instances
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();

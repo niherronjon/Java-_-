@@ -31,3 +31,17 @@ public class TryCatchExample {
         }
     }
 }
+
+
+
+Explanation :
+  
+try Block: Contains the code that may throw an exception.
+catch Block(s): Catches and handles specific exceptions.
+finally Block (Optional): Executes after the try and catch blocks, regardless of whether an exception occurred.
+  
+Key Points :
+  
+You can have multiple catch blocks to handle different types of exceptions.
+The finally block is often used to release resources like file handles or database connections.
+Exceptions should be caught in the order from the most specific to the most general (e.g., IOException before Exception).
